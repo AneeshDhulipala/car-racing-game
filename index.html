@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Zen</title>
+    <title>Multiplayer Game</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
@@ -14,19 +14,24 @@
 
     <script>
       // Your web app's Firebase configuration
-      //add here  
-    var firebaseConfig = {
-    apiKey: "AIzaSyAUeppc1dKSSvbmJB_fZaj9zvpZpFQBFso",
-    authDomain: "ball-sync-game.firebaseapp.com",
-    databaseURL: "https://ball-sync-game-default-rtdb.firebaseio.com",
-    projectId: "ball-sync-game",
-    storageBucket: "ball-sync-game.appspot.com",
-    messagingSenderId: "322770605447",
-    appId: "1:322770605447:web:0156da834fcaa80c222f22"
+      //Add here
+      var firebaseConfig = {
+    apiKey: "AIzaSyB8F9NBwnqgnNRjRZC9fkxwAceBdRQVSvs",
+    authDomain: "car-racing-game-27667.firebaseapp.com",
+    databaseURL: "https://car-racing-game-27667-default-rtdb.firebaseio.com",
+    projectId: "car-racing-game-27667",
+    storageBucket: "car-racing-game-27667.appspot.com",
+    messagingSenderId: "829084694897",
+    appId: "1:829084694897:web:feb90c1311a91b5188ded0",
+    measurementId: "G-1QVDY51D2L"
   };
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
     </script>
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
   <body>
