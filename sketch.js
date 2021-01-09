@@ -7,7 +7,7 @@ var distance = 0;
 var database;
 var car1Image,car2Image,car3Image,car4Image,trackImage;
 var form, player, game;
-
+var carsAtTheEnd
 var cars, car1, car2, car3, car4;
 function preload(){
   car1Image=loadImage("images/car1.png")
@@ -34,5 +34,9 @@ function draw(){
   if(gameState === 1){
     clear();
     game.play();
+  }
+  if (gameState===2){
+    game.end()
+
   }
 }
